@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Youtube from "./Youtube";
 
 function App() {
   const [count, Sethehe] = useState(0);
@@ -10,8 +9,9 @@ function App() {
 
   return (
     <>
-      <h2 onClick={hwhw}>Hello World! {count}</h2>
-      <Youtube />
+      <h1 className="text-3xl bg-green-500 p-8 rounded-md">
+        Using Tailwind-css
+      </h1>
     </>
   );
 }
