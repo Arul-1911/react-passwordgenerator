@@ -2,11 +2,15 @@ import { useState } from "react";
 import Youtube from "./Youtube";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, Sethehe] = useState(0);
+
+  const hwhw = () => {
+    Sethehe(count + 1);
+  };
 
   return (
     <>
-      <h2>Hello World!</h2>
+      <h2 onClick={hwhw}>Hello World! {count}</h2>
       <Youtube />
     </>
   );
